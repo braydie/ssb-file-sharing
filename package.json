@@ -1,13 +1,13 @@
 {
-  "name": "file-sharing",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ssb-file-sharing",
+  "version": "0.0.1",
+  "description": "A file sharing app written with Secure Scuttlebutt and Dat",
   "main": "index.js",
   "scripts": {
     "start": "ssb_appname=ssb-test-filesharing sbot server"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Christophe Benz <christophe.benz@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "dat-node": "^3.5.8",
     "mirror-folder": "^2.1.1",
